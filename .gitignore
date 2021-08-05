@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyc
+bin/
+lib/
+pyenv.cfg

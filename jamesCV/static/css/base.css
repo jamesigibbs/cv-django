@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Roboto&display=swap");
+
+/*--------Main*/
+
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a.dropdown-item {
+    text-align: center;
+}
+
+/*---------------------------------------Header*/
+
+.header {
+    background-color: white;
+    background-image: url("../media/mountain-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.heading {
+    color: #fafafa;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+#name {
+    font-size: 80px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+/*-----------------------------------------Footer*/
+
+footer {
+    background-color: #55b9e3;
+    color: #a7def2;
+    font-size: 15px;
+    font-weight: 700px;
+    padding: 3vh 10px 0 10px;
+}
+
+footer a:hover,
+footer p:hover,
+footer i:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer a {
+    color: #a7def2;
+}
+
+footer i {
+    color: #a7def2;
+}
+
+.icons {
+    text-align: center;
+}
+
+.tel {
+    text-align: right;
+}
+
+/*----------------------------------------Navbar*/
+
+.navbar {
+    padding-top: 15px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: #fafafa !important;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: right;
+    text-shadow: -0.5px 0 grey, 0 0.5px grey, 0.5px 0 grey, 0 -0.5px grey;
+}
+
+a.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-toggle::after {
+    text-shadow: -0.5px 0 grey, 0 0.5px grey, 0.5px 0 grey, 0 -0.5px grey;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+#postion-down {
+    padding-top: 12vh;
+    padding-right: 5px;
+}
+
+.dropdown-menu {
+    background: #1c7191;
+    color: #fafafa;
+}
+
+.dropdown-item {
+    color: #fafafa;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #55b9e3;
+}
+
+/*--------------------------------------index.html*/
+
+.wte {
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0px 20px 0;
+}
+
+.circle {
+    align-items: center;
+    background: #55b9e3;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.avatar-img {
+    align-items: center;
+    height: 293px;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+}
+
+.icon {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 100px;
+    color: #a7def2;
+}
+
+.circle-label {
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    top: 35px;
+    color: #fafafa;
+}
+
+.circle-p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.about {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about-t {
+    position: relative;
+    top: 80px;
+}
+
+.about-c {
+    position: relative;
+    top: 100px;
+}
+
+/*-----------------------------------------experience.html*/
+
+.exp-heading {
+    padding-top: 40px;
+}
+
+.full-time-img {
+    height: auto;
+    max-width: 75%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#marwell {
+    padding-top: 50px;
+}
+
+.full-time-box {
+    position: relative;
+}
+
+.full-time-t {
+    padding-top: 10vh;
+    padding-bottom: 20px;
+}
+
+.full-time-c {
+    padding-bottom: 30px;
+}
+
+
+.part-time-t {
+    padding-top: 50px;
+}
+
+.part-time-c {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.part-time-img {
+    border: solid 5px #55b9e3;
+    height: 222px;
+    width: 333px;
+}
+
+/*------------------------------------------------------Projects*/
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    border: solid grey 0.5px;
+}
+
+.project {
+    padding: 25px 0 15px;
+}
+
+.project-d {
+    position: relative;
+    top: 25%;
+}
+
+.project-t {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.project-c {
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------------------------------------------------contact.html*/
+.contact-t {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+.contact-f {
+    padding: 30px 50px 20px 50px;
+    margin-bottom: 80px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    background-color: #a7def2;
+    border-radius: 7%;
+    border: 5px #55b9e3 solid;
+}
+
+.submit {
+    width: 100%;
+    background-color: #1c7191;
+}
+
+.submit:hover {
+    background-color: #1c7191;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 900px) {
+
+    /*----------------------------------Header*/
+    #name {
+        font-size: 2.5rem;
+        text-align: center
+    }
+
+    #title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .download {
+        display: none;
+
+    }
+
+    /*----------------------------------Navbar*/
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    a.nav-link {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .collapsing {
+        background-color: #1c7191;
+        z-index: 2;
+    }
+
+    .show {
+        background-color: #1c7191;
+        z-index: 2;
+    }
+
+
+    nav a:focus {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .navbar-toggler {
+        background: #1c7191;
+        color: #fafafa;
+    }
+
+    /*----------------------------------index.html*/
+
+    .cir-div {
+        margin: 20px;
+    }
+
+    .avatar {
+        display: none;
+    }
+
+    .about {
+        padding-top: 25px;
+    }
+
+    .profile {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-p {
+        width: 50%;
+        height: 90%;
+    }
+
+    /*-----------------------------experience.html*/
+
+    .full-time-img {
+        padding-top: 50px;
+        width: 50vw;
+        height: auto;
+    }
+
+
+
+    /*-----------------------------projects.html*/
+
+    .project {
+        padding-bottom: 30px;
+    }
+
+    .screenshot {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    /*----------------------------------index.html*/
+
+    #responsive {
+        padding-left: 0px;
+    }
+
+    .profile-p {
+        width: 90%;
+        height: 95%;
+    }
+
+    /*-----------------------------experience.html*/
+
+    .part-time-img {
+        display: none;
+    }
