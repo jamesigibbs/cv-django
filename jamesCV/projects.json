@@ -1,0 +1,110 @@
+[
+    {
+        "pk": 1,
+        "model": "projects.project",
+        "fields": {
+            "name": "Milestone 1",
+            "description": "This is my first graded project for the code institute course. It is a resume site for me and consists of 6 pages with links to all other projects as well as my work experience and a link to download a pdf of my CV.",
+            "category": 1,
+            "image": "ms1.png",
+            "link_url": "https://jamesigibbs.github.io/milestone1/index.html",
+            "github_url": "https://github.com/jamesigibbs/milestone1"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "projects.project",
+        "fields": {
+            "name": "Rosie's Resume",
+            "description": "This project is a resume for a made up web developer called Rosie. The site consist of 3 pages and was made using Bootstrap. It also has a link to a downloadable pdf of her CV.",
+            "category": 2,
+            "image": "resume.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/UCD-resume"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "projects.project",
+        "fields": {
+            "name": "Love Running",
+            "description": "This is a website consisting of 3 pages, made for a running club in Dublin. I has meet up times and locations and includes a sign up form so that users can join the club and get access to more information.",
+            "category": 2,
+            "image": "love-running.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/CI-Love-Running"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "projects.project",
+        "fields": {
+            "name": "Whiskey Drop",
+            "description": "Whiskey drop is a made up subscription service that provides you with a new bottle of whiskey every month. This was created using Bootstrap and consist of one home page.",
+            "category": 2,
+            "image": "whiskey.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/whiskeyDrop"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "projects.project",
+        "fields": {
+            "name": "Stream",
+            "description": "This was my first project with Code Institute and is a basic website containing links to Wikipedia, for each language I will be learning.",
+            "category": 3,
+            "image": "stream.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/streamWebsite"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "projects.project",
+        "fields": {
+            "name": "SVG Timer",
+            "description": "Part of the Modern JavaScript Bootcamp by Colt Steele, this is an animated timer created using HTML, SVG and JavaScript. This was my first JavaScript project and my first time using SVG.",
+            "category": 3,
+            "image": ".png",
+            "link_url": "timer.png",
+            "github_url": "https://github.com/jamesigibbs/MJBtimer"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "projects.project",
+        "fields": {
+            "name": "Film Fight",
+            "description": "This is a website consisting of 3 pages, made for a running club in Dublin. I has meet up times and locations and includes a sign up form so that users can join the club and get access to more information.",
+            "category": 3,
+            "image": "film.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/MJBfilm-fight"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "projects.project",
+        "fields": {
+            "name": "Museum Of Candy",
+            "description": "This project was a part of the Web Developer Bootcamp by Colt Steele. I used Bootstrap to make a single page of a website for an Instagram page called the Museum Of Candy.",
+            "category": 3,
+            "image": "moc.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/WDBmuseum-of-candy"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "projects.project",
+        "fields": {
+            "name": "Purrfect Match",
+            "description": "From the WDB as well, This is a single page for a website designed to be a Human-Feline dating app. This was created using Bootstrap and was my first time using it.",
+            "category": 3,
+            "image": "purrfect.png",
+            "link_url": "",
+            "github_url": "https://github.com/jamesigibbs/WDBpurrfect-match"
+        }
+    }
+]
