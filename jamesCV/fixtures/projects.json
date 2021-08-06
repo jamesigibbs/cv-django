@@ -71,9 +71,9 @@
             "name": "SVG Timer",
             "description": "Part of the Modern JavaScript Bootcamp by Colt Steele, this is an animated timer created using HTML, SVG and JavaScript. This was my first JavaScript project and my first time using SVG.",
             "category": 3,
-            "image": ".png",
+            "image": "timer.png",
             "image2": "",
-            "link_url": "timer.png",
+            "link_url": "",
             "github_url": "https://github.com/jamesigibbs/MJBtimer"
         }
     },
