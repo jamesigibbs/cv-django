@@ -1,0 +1,34 @@
+[
+    {
+        "pk": 1,
+        "model": "projects.category",
+        "fields": {
+            "name": "personal",
+            "friendly_name": "Personal"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "projects.category",
+        "fields": {
+            "name": "codeinstitute",
+            "friendly_name": "Code Institute"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "projects.category",
+        "fields": {
+            "name": "udemy",
+            "friendly_name": "Udemy"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "projects.category",
+        "fields": {
+            "name": "other",
+            "friendly_name": "OTher"
+        }
+    }
+]
