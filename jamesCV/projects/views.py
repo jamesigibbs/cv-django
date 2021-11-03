@@ -9,10 +9,20 @@ from .models import Project, Category
 def projects(request):
     """ A view to render projects.html and project cards"""
     projects = Project.objects.all()
+    categories = Category.objects.all()
+    current_categories = None
+    category = None
 
+    if 'category' in request.GET:
+        current_categories = request.GET['category'].split(',')
+        projects = projects.filter(category__name__in=current_categories)
+        category = Category.objects.filter(
+            name__in=current_categories)
 
     context = {
-        'projects': projects
+        'projects': projects,
+        'categories': categories,
+        'current_category': category
     }
 
     return render(request, 'projects/projects.html', context)

@@ -46,6 +46,29 @@
                     </form>
                 </div>
             </div>
+
+            <!-- Catergoires -->
+            <div class="row">
+                <div class="col text-center mt-3">
+                    <h2 class="logo-font">Products</h2>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'projects' %}">
+                                All Projects
+                            </a>
+                        </li>
+                        {% for c in categories %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'projects' %}?category={{ c.name }}">
+                                    {{ c.friendly_name}}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <hr class="w-50 mb-1">
+                </div>
+            </div>
+            <!-- Messages -->
             <div class="row">
                 <div class="col-12 text-center mt-3">
                     {% for message in messages %}
@@ -54,28 +77,27 @@
                 </div>
             </div>
         </div>
-
+    <!-- Projects -->
     <div class="row">
         {% for project in projects %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <div class="card h-100 border-0">
                 {% if project.image %}
-                <a href="">
-                    <img class="card-img-top img-fluid"
-                        src="{{ MEDIA_URL }}{{ project.image }}" alt="{{ project.name }}">
-                </a>
+                    <a href="{% if project.link_url %}{{ project.link_url }}{% else %}{{ project.github_url }}{% endif %}">
+                        <img class="card-img-top img-fluid"
+                            src="{{ MEDIA_URL }}{{ project.image }}" alt="{{ project.name }}">
+                    </a>
                 {% else %}
-                <a href="">
-                    <img class="card-img-top img-fluid" src="noimage.png" alt="{{ project.name }}">
-                </a>
+                    <a href="{% if project.link_url %}{{ project.link_url }}{% else %}{{ project.github_url }}{% endif %}">
+                        <img class="card-img-top img-fluid" src="noimage.png" alt="{{ project.name }}">
+                    </a>
                 {% endif %}
                 <div class="card-body pb-0">
-                    <p class="mb-0">{{ project.name }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold"> {{ project }}</p>
                 </div>
                 <div class="card-footer bg-white pt-0 border-0 text-left">
                     <div class="row">
                         <div class="col">
-                            <p class="lead mb-0 text-left font-weight-bold"> {{ project }}</p>
                             {% if project.category %}
                             <p class="small mt-1 mb-0">
                                 <a class="text-muted"
@@ -86,25 +108,16 @@
                             </p>
                             {% endif %}
                             <div class="row pt-2">
-                                {% if project.link_url %}
-                                    <div class="col-6 d-flex justify-content-center">
-                                        <a href="{{ project.link_url }}"
-                                            class="btn btn-secondary">
-                                            <i class="fas fa-cloud"></i>
-                                        </a>
-                                    </div>
-                                {% else %}
-                                    <div class="col-6 d-flex justify-content-center">
-                                        <a href="{{ project.github_url }}"
-                                            class="btn btn-secondary">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </div>
-                                {% endif %}
                                 <div class="col-6 d-flex justify-content-center">
-                                    <a href=""
+                                <a href="{{ project.github_url }}"
+                                    class="btn btn-secondary">
+                                        <i class="fab fa-github"></i>
+                                </a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center">
+                                    <a href="{{ project.link_url }}"
                                         class="btn btn-secondary">
-                                        <i class="fas fa-ellipsis-h"></i>
+                                        <i class="fas fa-globe"></i>
                                     </a>
                                 </div>
                             </div>

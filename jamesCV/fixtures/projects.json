@@ -9,7 +9,8 @@
             "image": "ms1.png",
             "image2": "",
             "link_url": "https://jamesigibbs.github.io/milestone1/index.html",
-            "github_url": "https://github.com/jamesigibbs/milestone1"
+            "github_url": "https://github.com/jamesigibbs/milestone1",
+            "rating": 1
         }
     },
     {
@@ -22,7 +23,8 @@
             "image": "resume.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/UCD-resume"
+            "github_url": "https://github.com/jamesigibbs/UCD-resume",
+            "rating": 1
         }
     },
     {
@@ -35,7 +37,8 @@
             "image": "love-running.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/CI-Love-Running"
+            "github_url": "https://github.com/jamesigibbs/CI-Love-Running",
+            "rating": 1
         }
     },
     {
@@ -48,7 +51,8 @@
             "image": "whiskey.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/whiskeyDrop"
+            "github_url": "https://github.com/jamesigibbs/whiskeyDrop",
+            "rating": 1
         }
     },
     {
@@ -61,7 +65,8 @@
             "image": "stream.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/streamWebsite"
+            "github_url": "https://github.com/jamesigibbs/streamWebsite",
+            "rating": 1
         }
     },
     {
@@ -74,7 +79,8 @@
             "image": "timer.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/MJBtimer"
+            "github_url": "https://github.com/jamesigibbs/MJBtimer",
+            "rating": 1
         }
     },
     {
@@ -87,7 +93,8 @@
             "image": "film.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/MJBfilm-fight"
+            "github_url": "https://github.com/jamesigibbs/MJBfilm-fight",
+            "rating": 1
         }
     },
     {
@@ -100,7 +107,8 @@
             "image": "moc.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/WDBmuseum-of-candy"
+            "github_url": "https://github.com/jamesigibbs/WDBmuseum-of-candy",
+            "rating": 1
         }
     },
     {
@@ -113,7 +121,8 @@
             "image": "purrfect.png",
             "image2": "",
             "link_url": "",
-            "github_url": "https://github.com/jamesigibbs/WDBpurrfect-match"
+            "github_url": "https://github.com/jamesigibbs/WDBpurrfect-match",
+            "rating": 1
         }
     }
 ]

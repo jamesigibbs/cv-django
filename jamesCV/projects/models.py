@@ -27,6 +27,7 @@ class Project(models.Model):
     image2 = models.ImageField(null=True, blank=True)
     link_url = models.URLField(max_length=1024, null=True, blank=True)
     github_url = models.URLField(max_length=1024, null=False, blank=False)
+    rating = models.IntegerField(blank=True, null=False)
 
     def __str__(self):
         return self.name

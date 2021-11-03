@@ -11,7 +11,8 @@ class ProjectAdmin(admin.ModelAdmin):
         'image',
         'image2',
         'link_url',
-        'github_url'
+        'github_url',
+        'rating'
     )
 
 
